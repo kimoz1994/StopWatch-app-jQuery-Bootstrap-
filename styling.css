@@ -1,0 +1,164 @@
+/*styling the background and the font of the page*/
+
+
+html{
+    
+  height: 100%;  
+    
+}
+
+body{
+    background: url("images/road5.jpeg") center center fixed no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    
+}
+
+/*styling the title (header)*/
+
+#header{
+    
+text-align: center;
+font-size: 7vw;
+margin-left: 40px;    
+}
+
+/*styling the laptime*/
+
+#lap{
+    text-align: right;
+    font-size: 3vw;
+    position: relative;
+    margin-right: 40px; 
+}
+
+/*styling the main time*/
+#time{
+    
+    text-align: center;
+    font-size: 10vw;
+    position: relative;
+    margin-right: 10%;
+    
+}
+
+#controlscontainer{
+    margin-bottom: 50px; 
+}
+
+
+
+
+.control {
+    height: 10vw;
+    width: 10vw;
+    color: white;
+    background-color: #225252;
+    border-radius: 100%;
+    text-align: center;
+    padding: 25% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.control:active{
+    background-color: white;
+    color: aqua;
+    
+}
+
+#laps{
+    
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+
+.lap{
+    
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+    
+}
+.laptimetitle{
+    
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+    
+    
+}
+
+
+
+
+#timecentisecond {
+    position: absolute;
+}
+
+#lapcentisecond {
+    position:absolute;
+}
+
+
+@media(max-device-width:433px){
+    
+   
+    
+    #header{
+    
+font-size: 30px;
+margin-left: 20px;    
+}
+    
+    
+ #lap{
+    
+    margin-right: 10px; 
+     font-size: 17px;
+} 
+   
+    #time{
+    
+
+    font-size: 45px;
+
+
+    
+}
+    
+   .control {
+    height: 70px;
+    width: 70px;
+    font-size: 15px;
+    
+    margin-right: 20px;  
+    line-height: 50px;
+    cursor: pointer;
+       
+} 
+   
+    
+     
+    #lapbutton{
+        margin-left: 50px;
+    }
+    #resetbutton{
+       margin-left: 50px; 
+    }
+    
+    #controlscontainer{
+    margin-top: 20px; 
+    margin-right: 60px    
+}
+    
+    
+}
+    
+    
+    
